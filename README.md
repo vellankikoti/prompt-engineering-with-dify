@@ -113,7 +113,28 @@ cd mastering-prompt-engineering-with-dify
 Congratulations! You've mastered the basics of prompt engineering and learned how to implement real-world applications with Dify. Keep exploring, refining, and innovating—your journey with AI has just begun!
 
 ---
-
+## **Directory Structure for Navigation**
+```
+mastering-prompt-engineering-with-dify/  
+│  
+├── README.md                 # Main guide with step-by-step instructions.  
+├── docs/                     # Additional documentation and assets.  
+│   ├── images/               # Images used in the guide.  
+│   └── docker/               # Docker-related setup files.  
+│       ├── docker-compose.yml  
+│       └── Dockerfile  
+├── examples/                 # Use case implementation files.  
+│   ├── travel_plan/          # Travel planning example.  
+│   │   └── travel_plan.md  
+│   ├── weekend_food/         # Food recommendations example.  
+│   │   └── weekend_food.md  
+├── scripts/                  # Automation scripts.  
+│   ├── setup_dify.sh         # Shell script for setting up Dify.  
+│   └── install_docker.sh     # Shell script for installing Docker.  
+└── assets/                   # Videos or additional learning materials.  
+    └── intro_to_dify.mp4  
+```
+---
 ## **Next Steps**
 - Try building more use cases.
 - Explore advanced features like custom integrations.
