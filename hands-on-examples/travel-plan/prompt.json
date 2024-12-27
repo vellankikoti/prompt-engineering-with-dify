@@ -1,0 +1,8 @@
+{
+  "prompt": "Plan a travel itinerary from Bangalore to New York including flights, accommodations, and activities for a 5-day trip.",
+  "model": "gpt-3.5-turbo",
+  "parameters": {
+    "temperature": 0.7,
+    "max_tokens": 500
+  }
+}
