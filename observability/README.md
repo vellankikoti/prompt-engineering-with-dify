@@ -1,0 +1,59 @@
+# Observability in Dify
+
+Observability tools in Dify help you monitor and optimize the performance of your prompts. This section provides an overview of observability features and step-by-step instructions for using them.
+
+---
+
+## Why Observability?
+
+- **Understand Prompt Performance**: Analyze how well prompts perform across different models.
+- **Debug Prompt Issues**: Identify and fix errors or unexpected responses.
+- **Optimize for Efficiency**: Refine prompts to achieve desired outcomes faster.
+
+---
+
+## Features of Observability in Dify
+
+1. **Prompt Metrics**:
+   - Tracks success rates and error rates.
+   - Displays average response time.
+
+2. **Logs and History**:
+   - View a history of executed prompts.
+   - Inspect responses for debugging.
+
+3. **Prompt Variations**:
+   - Compare performance across different prompt formats.
+
+---
+
+## How to Use Observability Tools
+
+1. **Access Logs**  
+   Navigate to the "Logs" section in the Dify dashboard to view historical data.
+
+2. **Analyze Metrics**  
+   Use the metrics panel to review success rates and average response times for your prompts.
+
+3. **Debugging**  
+   - Select a prompt from the logs.
+   - Review the response and analyze any errors.
+   - Adjust the prompt and re-run it to validate improvements.
+
+4. **Optimize Prompt Efficiency**  
+   - Experiment with shorter or more specific prompts.
+   - Use different models to compare results.
+
+---
+
+### Best Practices for Observability
+
+- **Save Prompt Templates**: Organize prompts for easy reuse.
+- **Track Changes**: Note modifications to prompts and their impact.
+- **Regularly Monitor Logs**: Ensure consistency and reliability in prompt responses.
+
+---
+
+### Next Steps
+
+Continue exploring hands-on examples or revisit earlier sections to refine your knowledge. Use observability insights to improve your prompts for the use cases covered in this workshop.
