@@ -1,5 +1,3 @@
-### **`prerequisites/README.md`**
-
 # Prerequisites: Setting Up Docker and Docker Compose
 
 This section guides you through setting up Docker and Docker Compose, which are essential for running Dify.
