@@ -62,7 +62,7 @@ Observability tools in Dify help you monitor and optimize the performance of you
    ```bash
    python3 logs_analyzer.py
    python3 response_optimizer.py
-
+3. Review insights and refine prompts accordingly.
 ---
 
 ### Best Practices for Observability
