@@ -11,6 +11,47 @@ Prompt engineering is the art of crafting precise inputs to extract meaningful a
 This guide will equip you with the knowledge to master prompt engineering and build AI-powered apps with Dify. Even if you're a beginner, we'll take you step by step, ensuring a fun and insightful learning experience.
 
 ---
+## Workshop Outline
+
+1. **Introduction to Prompt Engineering**
+   - Importance and applications.
+
+2. **Introduction to Dify**
+   - What is Dify and why use it?
+
+3. **Understanding Supported Models**
+   - Overview of models supported by Dify.
+   - When and why to use each model.
+
+4. **Setting Up Dify**
+   - Cloud-hosted and self-hosted setups.
+
+5. **Exploring Dify Features**
+   - Key tools and functionalities.
+
+6. **Hands-On Examples**
+### **Example 1: Travel Planning (Bangalore to New York)**
+1. **Define Workflow**:
+   - Create a new workflow named `Travel Planner`.
+   - Add a text input node: "I want to travel from Bangalore to New York."
+   - Add an agent node to suggest flights, visas, and accommodations.
+2. **Run Workflow**:
+   - Test the workflow and observe the results on the dashboard.
+
+### **Example 2: Weekend Food Recommendations**
+1. **Define Workflow**:
+   - Create a new workflow named `Food Recommendations`.
+   - Add a text input node: "Suggest foods I can enjoy in Bangalore this weekend."
+   - Add an agent node to retrieve local food suggestions.
+2. **Run Workflow**:
+   - Test the workflow and refine the prompt as needed.
+
+7. **Observability in Dify**
+   - Monitoring and optimizing prompts.
+
+8. **Conclusion**
+   - Inspiring you to explore more!
+---
 
 ## **Prerequisites**
 1. Basic understanding of terminal commands (no prior coding experience required).
@@ -55,22 +96,13 @@ docker-compose --version
 
 ---
 
-## **2. Getting Started with Dify**
+## **2. Getting Started with Workshop**
 
 ### **Step 1: Clone the Repository**
 ```bash
-git clone https://github.com/insert-dify-repo.git
-cd mastering-prompt-engineering-with-dify
+git clone https://github.com/vellankikoti/prompt-engineering-with-dify.git
+
 ```
-
-### **Step 2: Setup with Docker Compose**
-1. Navigate to the `docs/docker/` directory.
-2. Run:
-   ```bash
-   docker-compose up -d
-   ```
-3. Access the Dify dashboard at `http://localhost:8080`.
-
 ---
 
 ## **3. Exploring Dify's Features**
@@ -83,57 +115,14 @@ cd mastering-prompt-engineering-with-dify
 
 ---
 
-## **4. Hands-On Examples**
+## Repository Structure
 
-### **Example 1: Travel Planning (Bangalore to New York)**
-1. **Define Workflow**:
-   - Create a new workflow named `Travel Planner`.
-   - Add a text input node: "I want to travel from Bangalore to New York."
-   - Add an agent node to suggest flights, visas, and accommodations.
-2. **Run Workflow**:
-   - Test the workflow and observe the results on the dashboard.
-
-### **Example 2: Weekend Food Recommendations**
-1. **Define Workflow**:
-   - Create a new workflow named `Food Recommendations`.
-   - Add a text input node: "Suggest foods I can enjoy in Bangalore this weekend."
-   - Add an agent node to retrieve local food suggestions.
-2. **Run Workflow**:
-   - Test the workflow and refine the prompt as needed.
-
----
-
-## **5. Observability and Monitoring**
-- Access logs directly from the Dify dashboard.
-- Monitor prompt performance and refine workflows accordingly.
-
----
-
-## **6. Conclusion**
-Congratulations! You've mastered the basics of prompt engineering and learned how to implement real-world applications with Dify. Keep exploring, refining, and innovating—your journey with AI has just begun!
-
----
-## **Directory Structure for Navigation**
-```
-prompt-engineering-with-dify/  
-│  
-├── README.md                 # Main guide with step-by-step instructions.  
-├── docs/                     # Additional documentation and assets.  
-│   ├── images/               # Images used in the guide.  
-│   └── docker/               # Docker-related setup files.  
-│       ├── docker-compose.yml  
-│       └── Dockerfile  
-├── examples/                 # Use case implementation files.  
-│   ├── travel_plan/          # Travel planning example.  
-│   │   └── travel_plan.md  
-│   ├── weekend_food/         # Food recommendations example.  
-│   │   └── weekend_food.md  
-├── scripts/                  # Automation scripts.  
-│   ├── setup_dify.sh         # Shell script for setting up Dify.  
-│   └── install_docker.sh     # Shell script for installing Docker.  
-└── assets/                   # Videos or additional learning materials.  
-    └── intro_to_dify.mp4  
-```
+- **`prerequisites/`**: Docker and Docker Compose setup.
+- **`dify-setup/`**: Instructions for Dify installation.
+- **`models-overview/`**: Supported models and their use cases.
+- **`hands-on-examples/`**: Step-by-step examples.
+- **`observability/`**: Monitoring and debugging prompts.
+- **`assets/`**: Screenshots and outputs.
 ---
 ## **Next Steps**
 - Try building more use cases.
