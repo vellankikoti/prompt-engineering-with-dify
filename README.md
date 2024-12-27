@@ -115,7 +115,7 @@ Congratulations! You've mastered the basics of prompt engineering and learned ho
 ---
 ## **Directory Structure for Navigation**
 ```
-mastering-prompt-engineering-with-dify/  
+prompt-engineering-with-dify/  
 │  
 ├── README.md                 # Main guide with step-by-step instructions.  
 ├── docs/                     # Additional documentation and assets.  
