@@ -45,6 +45,25 @@ Observability tools in Dify help you monitor and optimize the performance of you
    - Use different models to compare results.
 
 ---
+## Files
+
+1. `logs_analyzer.py`:
+   - Groups and analyzes prompts based on categories.
+   - Outputs response time, success rate, and model used.
+
+2. `response_optimizer.py`:
+   - Suggests improvements for failed prompts.
+   - Focuses on prompt clarity and parameter tuning.
+
+## Usage
+
+1. Export logs from Dify in JSON format and place them as `logs.json` in this directory.
+2. Run:
+   ```bash
+   python3 logs_analyzer.py
+   python3 response_optimizer.py
+
+---
 
 ### Best Practices for Observability
 
