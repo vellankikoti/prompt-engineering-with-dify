@@ -1,1 +1,21 @@
+{
+  "name": "Travel Plan Workflow",
+  "variables": [
+    { "key": "origin", "type": "text", "description": "Origin city" },
+    { "key": "destination", "type": "text", "description": "Destination city" },
+    { "key": "budget", "type": "number", "description": "Budget in USD" },
+    { "key": "interests", "type": "text", "description": "Travel interests (e.g., adventure, relaxation)" }
+  ],
+  "steps": [
+    {
+      "name": "Generate Itinerary",
+      "action": "AI Model",
+      "prompt": "Plan a ${interests} trip from ${origin} to ${destination} with a budget of ${budget}.",
+      "parameters": {
+        "temperature": 0.7,
+        "max_tokens": 500
+      }
+    }
+  ]
+}
 
