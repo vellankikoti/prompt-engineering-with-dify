@@ -1,1 +1,20 @@
+{
+  "name": "Food Recommendation Workflow",
+  "variables": [
+    { "key": "location", "type": "text", "description": "City or area" },
+    { "key": "dietary_restrictions", "type": "text", "description": "Dietary restrictions or preferences" },
+    { "key": "cuisine", "type": "text", "description": "Preferred cuisine (e.g., Italian, Indian)" }
+  ],
+  "steps": [
+    {
+      "name": "Get Recommendations",
+      "action": "AI Model",
+      "prompt": "Suggest ${cuisine} food options in ${location} considering ${dietary_restrictions}.",
+      "parameters": {
+        "temperature": 0.7,
+        "max_tokens": 400
+      }
+    }
+  ]
+}
 
