@@ -1,1 +1,7 @@
+{
+  "title": "Food Recommendation App",
+  "description": "Find the best food tailored to your preferences.",
+  "workflow": "food-recommendation-workflow.json",
+  "output_format": "json"
+}
 
