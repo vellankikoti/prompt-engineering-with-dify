@@ -1,8 +1,34 @@
-{
-  "prompt": "Plan a travel itinerary from Bangalore to New York including flights, accommodations, and activities for a 5-day trip.",
-  "model": "gpt-3.5-turbo",
-  "parameters": {
-    "temperature": 0.7,
-    "max_tokens": 500
+[
+  {
+    "prompt": "Plan a travel itinerary from Bangalore to New York for a 5-day trip, including flights, accommodations, and activities.",
+    "model": "gpt-3.5-turbo",
+    "parameters": {
+      "temperature": 0.7,
+      "max_tokens": 500
+    }
+  },
+  {
+    "prompt": "Suggest a budget travel itinerary from Delhi to Singapore for a family of four.",
+    "model": "gpt-3.5-turbo",
+    "parameters": {
+      "temperature": 0.8,
+      "max_tokens": 500
+    }
+  },
+  {
+    "prompt": "Create a detailed solo traveler itinerary from Mumbai to Tokyo, focusing on cultural experiences.",
+    "model": "gpt-4",
+    "parameters": {
+      "temperature": 0.9,
+      "max_tokens": 600
+    }
+  },
+  {
+    "prompt": "Recommend a weekend getaway from Hyderabad to a nearby hill station, including transport and stay options.",
+    "model": "gpt-3.5-turbo",
+    "parameters": {
+      "temperature": 0.6,
+      "max_tokens": 300
+    }
   }
-}
+]
