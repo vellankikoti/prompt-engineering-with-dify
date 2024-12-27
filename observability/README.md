@@ -63,6 +63,11 @@ Observability tools in Dify help you monitor and optimize the performance of you
    python3 logs_analyzer.py
    python3 response_optimizer.py
 3. Review insights and refine prompts accordingly.
+
+### Expected Output
+Logs grouped by category.
+Clear suggestions for optimizing failed prompts.
+
 ---
 
 ### Best Practices for Observability
