@@ -115,6 +115,50 @@ Day 5:
 
 ---
 
+#### **Table 1: Bad Prompts**
+| **Prompt**                          | **Why It’s Bad**                                                                         |
+|-------------------------------------|-----------------------------------------------------------------------------------------|
+| "Plan my trip."                     | Too vague; the AI doesn’t know where, when, or how.                                      |
+| "Suggest a travel destination."     | No preferences, location, or interests are provided, leading to generic responses.       |
+| "What’s the best city to visit?"    | Too broad; lacks user-specific context like budget, preferences, or time.               |
+| "Find me a good hotel."             | No location, budget, or star rating is specified.                                       |
+| "Tell me about travel."             | Unclear and overly broad; lacks any actionable information.                             |
+
+---
+
+#### **Table 2: Bad Prompts People Think Are Good**
+| **Prompt**                                             | **Why It’s Misleadingly Bad**                                                      |
+|--------------------------------------------------------|-----------------------------------------------------------------------------------|
+| "Plan a 3-day trip for me."                            | Appears good but doesn’t provide destination, budget, or preferences.             |
+| "What are some travel tips?"                           | Lacks specificity; could result in a long list of generic tips.                   |
+| "Find a hotel in Paris."                               | Sounds specific, but lacks budget, location preferences, or travel dates.         |
+| "Suggest a weekend getaway."                           | Appears focused but doesn’t specify the starting location, distance, or interests.|
+| "What are the best travel destinations for families?"  | Too broad; doesn’t account for location, duration, or budget.                     |
+
+---
+
+#### **Table 3: Good Prompts**
+| **Prompt**                                                                                  | **Why It’s Good**                                                                |
+|--------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
+| "Plan a 5-day trip to Paris, focusing on cultural landmarks and budget accommodations."     | Specifies location, duration, focus, and budget constraints.                    |
+| "Suggest a relaxing weekend getaway from Bangalore to a nearby hill station under ₹10,000."| Includes starting point, type of getaway, budget, and timeframe.               |
+| "What are the best hotels near the Eiffel Tower under $150 per night?"                     | Narrowed down by location, budget, and proximity to a landmark.                 |
+| "Plan a honeymoon itinerary to Bali, focusing on beaches and luxury resorts."              | Provides a clear purpose and travel preferences.                                |
+| "Find flight options from Delhi to Singapore for the first week of December, under $500."  | Defines the route, timeframe, and budget.                                       |
+
+---
+
+#### **Table 4: Very Well, The Great Prompts**
+| **Prompt**                                                                                     | **Why It’s Great**                                                               |
+|-----------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
+| "Plan a budget-friendly 7-day solo trip to Japan, focusing on food and cultural experiences."  | Clear and specific, combining preferences, budget, and purpose.                 |
+| "Suggest three scenic road trips from Bangalore within 200 km, with stay options for families."| Includes starting point, distance, purpose, and audience.                       |
+| "Generate a list of must-visit places in Paris for art lovers, with opening hours and ticket costs."| Highly focused and actionable.                                                  |
+| "Find me a flight from Mumbai to New York on December 15th, economy class, under $800."       | Includes all relevant travel details for precise recommendations.               |
+| "Create a 3-day itinerary for Rome, including historical sites, local restaurants, and evening activities."| Comprehensive, specific, and tailored for the traveler.                         |
+
+---
+
 ## **Next Steps**
 - Experiment with different inputs (e.g., budget constraints or unique preferences like "beach holidays").
 - Explore advanced workflows by adding follow-up questions for more personalized plans.
