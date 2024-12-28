@@ -63,53 +63,9 @@ If you're new to Docker, don't worry! We'll guide you through it in the next sec
 
 ---
 
-## **1. Setting the Stage: Installing Docker and Docker Compose**
-
-### **What is Docker?**
-Docker is a platform that helps you package applications and their dependencies into containers, ensuring they run reliably across different environments.
-
-### **Install Docker and Docker Compose**
-Follow these steps to install Docker:
-
-#### **For Windows/macOS**:
-1. Download and install Docker Desktop from the [Docker official website](https://www.docker.com/products/docker-desktop).
-2. Enable Docker Compose via Docker Desktop settings.
-
-#### **For Linux**:
-```bash
-# Update your system
-sudo apt update && sudo apt upgrade -y
-
-# Install Docker
-sudo apt install docker.io -y
-```
 ---
 
-# Install Docker Compose
-```
-sudo apt-get install ca-certificates curl gnupg -y
-sudo install -m 0755 -d /etc/apt/keyrings
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
-sudo chmod a+r /etc/apt/keyrings/docker.gpg
-echo \
-  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
-  $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
-
-```
-```
-sudo apt update
-sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin -y
-```
-
-Verify installations:
-```bash
-docker --version
-docker-compose --version
-```
-
----
-
-## **2. Getting Started with Workshop**
+## **1. Getting Started with Workshop**
 
 ### **Step 1: Clone the Repository**
 ```bash
@@ -117,6 +73,7 @@ git clone https://github.com/vellankikoti/prompt-engineering-with-dify.git
 
 ```
 ---
+## **2. Setiing up Dify**
 
 ## **3. Exploring Dify's Features**
 
